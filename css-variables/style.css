@@ -1,0 +1,26 @@
+/* CSS Variables declared below */
+:root {
+    --base: #ffc600;
+    --spacing: 20px;
+    --blur: 2px;
+}
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+body {
+    text-align: center;
+    background: hsl(205, 49%, 19%);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+.controls {
+    margin-bottom: 50px;
+}
+span {
+    color: var(--base);
+}
